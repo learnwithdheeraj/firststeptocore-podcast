@@ -8,7 +8,7 @@
     <link>https://topmate.io/firststeptocore</link>
     <language>en-us</language>
     <copyright>© 2026 FirstStepToCore</copyright>
-    <lastBuildDate>Thu, 26 Nov 2026 18:16:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 09:06:57 +0000</lastBuildDate>
     <atom:link href="https://learnwithdheeraj.github.io/firststeptocore-podcast/podcast.xml" rel="self" type="application/rss+xml" />
     <description>Short, deeply researched 9-minute engineering audio documentaries unpacking Android/Kotlin &amp; iOS internals, Linux kernels, distributed systems, database storage engines, compilers, and on-device AI/NPUs. Grab the FREE Under-the-Silicon Architecture Cheat Sheet &amp; Visual Systems Playbook at https://topmate.io/firststeptocore</description>
     <itunes:subtitle>Android/Kotlin, Linux kernels, distributed systems, databases &amp; AI/NPU internals.</itunes:subtitle>
@@ -31,5 +31,65 @@
       <itunes:category text="Courses" />
     </itunes:category>
     <itunes:category text="Science" />
+    <item>
+      <title>The 64-Byte Trap: Why Parallel Code Often Slows Down</title>
+      <description>Discover why perfectly parallel code often runs slower than single-threaded logic due to the hidden mechanics of CPU cache lines. We dive deep into the MESI protocol and false sharing to explain why 64 bytes of memory can become a massive bottleneck in high-performance systems. Learn the architectural habits distinguished engineers use to eliminate cache contention and unlock true multi-core throughput.
+
+FREE Under-the-Silicon Architecture Cheat Sheet &amp; Visual Systems Playbook:
+https://topmate.io/firststeptocore
+
+Listen on the Go (Audio Podcast — Spotify, Apple Podcasts, Amazon Music &amp; YouTube Music):
+• Official Podcast Hub &amp; RSS: https://learnwithdheeraj.github.io/firststeptocore-podcast/
+
+Recommended Systems Engineering Books:
+• Designing Data-Intensive Applications (Martin Kleppmann): https://www.amazon.in/dp/9352135245?tag=quietlyknown-21
+• Systems Performance (Brendan Gregg): https://www.amazon.in/dp/0136820158?tag=quietlyknown-21
+• Database Internals (Alex Petrov): https://www.amazon.in/dp/9352139119?tag=quietlyknown-21
+(Disclosure: As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.)
+
+Chapters:
+0:00 The Everyday Engineering Moment
+1:46 Under the Hood: The MESI Protocol
+3:27 Why It Matters in Real Production Systems
+5:08 3 Calm Architectural Habits
+6:50 The Lasting Mental Model
+
+Subscribe to @firststeptocore for daily Under-the-Silicon breakdowns across Android/Kotlin, Linux kernels, distributed systems, databases &amp; AI/NPUs.
+For B2B DevTool Sponsorships &amp; Engineering Collaborations: sai.sreedheeraj@gmail.com
+
+#softwareengineering #systemdesign #computerarchitecture #androiddev #firststeptocore</description>
+      <itunes:summary>Discover why perfectly parallel code often runs slower than single-threaded logic due to the hidden mechanics of CPU cache lines. We dive deep into the MESI protocol and false sharing to explain why 64 bytes of memory can become a massive bottleneck in high-performance systems. Learn the architectural habits distinguished engineers use to eliminate cache contention and unlock true multi-core throughput.
+
+FREE Under-the-Silicon Architecture Cheat Sheet &amp; Visual Systems Playbook:
+https://topmate.io/firststeptocore
+
+Listen on the Go (Audio Podcast — Spotify, Apple Podcasts, Amazon Music &amp; YouTube Music):
+• Official Podcast Hub &amp; RSS: https://learnwithdheeraj.github.io/firststeptocore-podcast/
+
+Recommended Systems Engineering Books:
+• Designing Data-Intensive Applications (Martin Kleppmann): https://www.amazon.in/dp/9352135245?tag=quietlyknown-21
+• Systems Performance (Brendan Gregg): https://www.amazon.in/dp/0136820158?tag=quietlyknown-21
+• Database Internals (Alex Petrov): https://www.amazon.in/dp/9352139119?tag=quietlyknown-21
+(Disclosure: As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.)
+
+Chapters:
+0:00 The Everyday Engineering Moment
+1:46 Under the Hood: The MESI Protocol
+3:27 Why It Matters in Real Production Systems
+5:08 3 Calm Architectural Habits
+6:50 The Lasting Mental Model
+
+Subscribe to @firststeptocore for daily Under-the-Silicon breakdowns across Android/Kotlin, Linux kernels, distributed systems, databases &amp; AI/NPUs.
+For B2B DevTool Sponsorships &amp; Engineering Collaborations: sai.sreedheeraj@gmail.com
+
+#softwareengineering #systemdesign #computerarchitecture #androiddev #firststeptocore</itunes:summary>
+      <enclosure url="https://github.com/learnwithdheeraj/firststeptocore-podcast/releases/download/yt_2026-11-27_cpu_cache_coherence_false_sharing_why_mult/yt_2026-11-27_cpu_cache_coherence_false_sharing_why_mult.mp3" length="8017857" type="audio/mpeg" />
+      <guid isPermaLink="false">yt_2026-11-27_cpu_cache_coherence_false_sharing_why_mult</guid>
+      <pubDate>Fri, 27 Nov 2026 09:06:57 +0000</pubDate>
+      <itunes:duration>08:21</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>

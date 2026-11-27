@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "episode_number": 1,
+    "guid": "yt_2026-11-27_cpu_cache_coherence_false_sharing_why_mult",
+    "title": "The 64-Byte Trap: Why Parallel Code Often Slows Down",
+    "description": "Discover why perfectly parallel code often runs slower than single-threaded logic due to the hidden mechanics of CPU cache lines. We dive deep into the MESI protocol and false sharing to explain why 64 bytes of memory can become a massive bottleneck in high-performance systems. Learn the architectural habits distinguished engineers use to eliminate cache contention and unlock true multi-core throughput.\n\nFREE Under-the-Silicon Architecture Cheat Sheet & Visual Systems Playbook:\nhttps://topmate.io/firststeptocore\n\nListen on the Go (Audio Podcast \u2014 Spotify, Apple Podcasts, Amazon Music & YouTube Music):\n\u2022 Official Podcast Hub & RSS: https://learnwithdheeraj.github.io/firststeptocore-podcast/\n\nRecommended Systems Engineering Books:\n\u2022 Designing Data-Intensive Applications (Martin Kleppmann): https://www.amazon.in/dp/9352135245?tag=quietlyknown-21\n\u2022 Systems Performance (Brendan Gregg): https://www.amazon.in/dp/0136820158?tag=quietlyknown-21\n\u2022 Database Internals (Alex Petrov): https://www.amazon.in/dp/9352139119?tag=quietlyknown-21\n(Disclosure: As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.)\n\nChapters:\n0:00 The Everyday Engineering Moment\n1:46 Under the Hood: The MESI Protocol\n3:27 Why It Matters in Real Production Systems\n5:08 3 Calm Architectural Habits\n6:50 The Lasting Mental Model\n\nSubscribe to @firststeptocore for daily Under-the-Silicon breakdowns across Android/Kotlin, Linux kernels, distributed systems, databases & AI/NPUs.\nFor B2B DevTool Sponsorships & Engineering Collaborations: sai.sreedheeraj@gmail.com\n\n#softwareengineering #systemdesign #computerarchitecture #androiddev #firststeptocore",
+    "audio_url": "https://github.com/learnwithdheeraj/firststeptocore-podcast/releases/download/yt_2026-11-27_cpu_cache_coherence_false_sharing_why_mult/yt_2026-11-27_cpu_cache_coherence_false_sharing_why_mult.mp3",
+    "byte_length": 8017857,
+    "duration_s": 501,
+    "pub_date": "Fri, 27 Nov 2026 09:06:57 +0000"
+  }
+]
