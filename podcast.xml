@@ -8,7 +8,7 @@
     <link>https://topmate.io/firststeptocore</link>
     <language>en-us</language>
     <copyright>© 2026 FirstStepToCore</copyright>
-    <lastBuildDate>Fri, 27 Nov 2026 09:06:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 10:44:41 +0000</lastBuildDate>
     <atom:link href="https://learnwithdheeraj.github.io/firststeptocore-podcast/podcast.xml" rel="self" type="application/rss+xml" />
     <description>Short, deeply researched 9-minute engineering audio documentaries unpacking Android/Kotlin &amp; iOS internals, Linux kernels, distributed systems, database storage engines, compilers, and on-device AI/NPUs. Grab the FREE Under-the-Silicon Architecture Cheat Sheet &amp; Visual Systems Playbook at https://topmate.io/firststeptocore</description>
     <itunes:subtitle>Android/Kotlin, Linux kernels, distributed systems, databases &amp; AI/NPU internals.</itunes:subtitle>
@@ -31,6 +31,70 @@
       <itunes:category text="Courses" />
     </itunes:category>
     <itunes:category text="Science" />
+    <item>
+      <title>How Databases Survive Power Loss: Under the Silicon</title>
+      <description>Explore the hidden mechanics of database durability, from Write-Ahead Logging to the physical capacitors on an NVMe drive. We analyze why a success signal in your code does not guarantee that data is safely stored on the physical media. Learn how Distinguished Engineers reason about the volatile window between system RAM and non-volatile NAND flash.
+
+FREE Under-the-Silicon Architecture Cheat Sheet &amp; Visual Systems Playbook:
+https://topmate.io/firststeptocore
+
+Listen on the Go (Audio Podcast):
+• Spotify: https://open.spotify.com/show/6M3XIm9Vjit0WX8f6PIvsJ
+• YouTube Music: https://music.youtube.com/playlist?list=PLHqVwkocHA1Y
+• Official Podcast Hub &amp; RSS (Apple / Amazon Music): https://learnwithdheeraj.github.io/firststeptocore-podcast/
+
+Recommended Systems Engineering Books:
+• Designing Data-Intensive Applications (Martin Kleppmann): https://www.amazon.in/dp/9352135245?tag=quietlyknown-21
+• Systems Performance (Brendan Gregg): https://www.amazon.in/dp/0136820158?tag=quietlyknown-21
+• Database Internals (Alex Petrov): https://www.amazon.in/dp/9352139119?tag=quietlyknown-21
+(Disclosure: As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.)
+
+Chapters:
+0:00 The Everyday Engineering Moment
+1:58 Under the Hood: OS, Runtime and Silicon
+3:54 Production Realities and Trade-offs
+5:46 3 Calm Architectural Habits
+7:33 The Lasting Mental Model
+
+Subscribe to @firststeptocore for daily Under-the-Silicon breakdowns across Android/Kotlin, Linux kernels, distributed systems, databases &amp; AI/NPUs.
+For B2B DevTool Sponsorships &amp; Engineering Collaborations: firststeptocore@gmail.com
+
+#softwareengineering #systemdesign #computerarchitecture #androiddev #firststeptocore</description>
+      <itunes:summary>Explore the hidden mechanics of database durability, from Write-Ahead Logging to the physical capacitors on an NVMe drive. We analyze why a success signal in your code does not guarantee that data is safely stored on the physical media. Learn how Distinguished Engineers reason about the volatile window between system RAM and non-volatile NAND flash.
+
+FREE Under-the-Silicon Architecture Cheat Sheet &amp; Visual Systems Playbook:
+https://topmate.io/firststeptocore
+
+Listen on the Go (Audio Podcast):
+• Spotify: https://open.spotify.com/show/6M3XIm9Vjit0WX8f6PIvsJ
+• YouTube Music: https://music.youtube.com/playlist?list=PLHqVwkocHA1Y
+• Official Podcast Hub &amp; RSS (Apple / Amazon Music): https://learnwithdheeraj.github.io/firststeptocore-podcast/
+
+Recommended Systems Engineering Books:
+• Designing Data-Intensive Applications (Martin Kleppmann): https://www.amazon.in/dp/9352135245?tag=quietlyknown-21
+• Systems Performance (Brendan Gregg): https://www.amazon.in/dp/0136820158?tag=quietlyknown-21
+• Database Internals (Alex Petrov): https://www.amazon.in/dp/9352139119?tag=quietlyknown-21
+(Disclosure: As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.)
+
+Chapters:
+0:00 The Everyday Engineering Moment
+1:58 Under the Hood: OS, Runtime and Silicon
+3:54 Production Realities and Trade-offs
+5:46 3 Calm Architectural Habits
+7:33 The Lasting Mental Model
+
+Subscribe to @firststeptocore for daily Under-the-Silicon breakdowns across Android/Kotlin, Linux kernels, distributed systems, databases &amp; AI/NPUs.
+For B2B DevTool Sponsorships &amp; Engineering Collaborations: firststeptocore@gmail.com
+
+#softwareengineering #systemdesign #computerarchitecture #androiddev #firststeptocore</itunes:summary>
+      <enclosure url="https://github.com/learnwithdheeraj/firststeptocore-podcast/releases/download/yt_2026-11-27_how_modern_databases_survive_power_loss_wa/yt_2026-11-27_how_modern_databases_survive_power_loss_wa.mp3" length="8888048" type="audio/mpeg" />
+      <guid isPermaLink="false">yt_2026-11-27_how_modern_databases_survive_power_loss_wa</guid>
+      <pubDate>Fri, 27 Nov 2026 10:44:41 +0000</pubDate>
+      <itunes:duration>09:15</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The 64-Byte Trap: Why Parallel Code Often Slows Down</title>
       <description>Discover why perfectly parallel code often runs slower than single-threaded logic due to the hidden mechanics of CPU cache lines. We dive deep into the MESI protocol and false sharing to explain why 64 bytes of memory can become a massive bottleneck in high-performance systems. Learn the architectural habits distinguished engineers use to eliminate cache contention and unlock true multi-core throughput.

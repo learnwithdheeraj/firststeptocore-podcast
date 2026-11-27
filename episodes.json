@@ -1,5 +1,15 @@
 [
   {
+    "episode_number": 2,
+    "guid": "yt_2026-11-27_how_modern_databases_survive_power_loss_wa",
+    "title": "How Databases Survive Power Loss: Under the Silicon",
+    "description": "Explore the hidden mechanics of database durability, from Write-Ahead Logging to the physical capacitors on an NVMe drive. We analyze why a success signal in your code does not guarantee that data is safely stored on the physical media. Learn how Distinguished Engineers reason about the volatile window between system RAM and non-volatile NAND flash.\n\nFREE Under-the-Silicon Architecture Cheat Sheet & Visual Systems Playbook:\nhttps://topmate.io/firststeptocore\n\nListen on the Go (Audio Podcast):\n\u2022 Spotify: https://open.spotify.com/show/6M3XIm9Vjit0WX8f6PIvsJ\n\u2022 YouTube Music: https://music.youtube.com/playlist?list=PLHqVwkocHA1Y\n\u2022 Official Podcast Hub & RSS (Apple / Amazon Music): https://learnwithdheeraj.github.io/firststeptocore-podcast/\n\nRecommended Systems Engineering Books:\n\u2022 Designing Data-Intensive Applications (Martin Kleppmann): https://www.amazon.in/dp/9352135245?tag=quietlyknown-21\n\u2022 Systems Performance (Brendan Gregg): https://www.amazon.in/dp/0136820158?tag=quietlyknown-21\n\u2022 Database Internals (Alex Petrov): https://www.amazon.in/dp/9352139119?tag=quietlyknown-21\n(Disclosure: As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.)\n\nChapters:\n0:00 The Everyday Engineering Moment\n1:58 Under the Hood: OS, Runtime and Silicon\n3:54 Production Realities and Trade-offs\n5:46 3 Calm Architectural Habits\n7:33 The Lasting Mental Model\n\nSubscribe to @firststeptocore for daily Under-the-Silicon breakdowns across Android/Kotlin, Linux kernels, distributed systems, databases & AI/NPUs.\nFor B2B DevTool Sponsorships & Engineering Collaborations: firststeptocore@gmail.com\n\n#softwareengineering #systemdesign #computerarchitecture #androiddev #firststeptocore",
+    "audio_url": "https://github.com/learnwithdheeraj/firststeptocore-podcast/releases/download/yt_2026-11-27_how_modern_databases_survive_power_loss_wa/yt_2026-11-27_how_modern_databases_survive_power_loss_wa.mp3",
+    "byte_length": 8888048,
+    "duration_s": 555,
+    "pub_date": "Fri, 27 Nov 2026 10:44:41 +0000"
+  },
+  {
     "episode_number": 1,
     "guid": "yt_2026-11-27_cpu_cache_coherence_false_sharing_why_mult",
     "title": "The 64-Byte Trap: Why Parallel Code Often Slows Down",
